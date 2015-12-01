@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.china.jason.pulltorefreshviewpager.scrolltab.grid.HeaderFooterGridView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@+id/gridview"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:scrollbars="none"
+          android:numColumns="3"
+          android:horizontalSpacing="0dp"
+          android:verticalSpacing="0dp"
+          android:stretchMode="columnWidth"
+          android:background="#FFFFFF"
+          android:listSelector="@null"
+            >
+
+</com.china.jason.pulltorefreshviewpager.scrolltab.grid.HeaderFooterGridView>

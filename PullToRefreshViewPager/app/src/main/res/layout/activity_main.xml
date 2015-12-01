@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.china.jason.pulltorefreshviewpager.scrolltab.PtrPagerSlidingTabFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tab:ptrAnimationStyle="flip"
+    tab:ptrMode="both"
+    >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <FrameLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="#223728"
+            android:gravity="center"
+            android:text="to be simple"
+            android:id="@+id/tv_header"
+            />
+
+        <com.china.jason.pulltorefreshviewpager.scrolltab.PagerSlidingTabStrip
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="48dip"
+            android:layout_gravity="bottom"
+            android:background="#00ffff"
+            tab:pstsShouldExpand="true"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:textColor="#FF0000"
+        />
+</com.china.jason.pulltorefreshviewpager.scrolltab.PtrPagerSlidingTabFrameLayout>
